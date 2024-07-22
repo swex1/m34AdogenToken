@@ -1,36 +1,47 @@
 # Project Title
+Create the ERC-20 token
+Set the name to “Degen”
+Set the symbol to “DGN”
+Test the smart-contract (All tests should pass)
+Deploy the contract to Avalanche Fuji Testnet
+Test on testnet (All tests should pass)
+Verify the smart-contract on Snowtrace
+Share the smart-contract with us!.
 
-Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Open in vsCode . Then copy paste our private key inside the HARDHAT.CONFIG.JS .
+And write my code in DegenToken.sol then after run . 
 
 ## Getting Started
 
 ### Installing
 
 * How/where to download your program
-* Any modifications needed to be made to files/folders
+* git clone  repositorylink  // for open in  my vs code 
 
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* 1. copy paste  private key inside Hardhat.config.js
+  2. write code in contracts DegenToken.sol
+     
+* Step-by-step bullets command 
+   1. npm install -g @remix-project/remixd
+   2. npm install @openzeppelin/contracts
+   3. npx hardhat node
+   4. for check  "npx harhat compile"
+   5. npx hardhat run scripts/deploy.js --network fuji
+   6. remidx .
+      
+connect to remix id then deployed it 
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
-## Authors
 
-Contributors names and contact info
+
+
 
 ex. Dominique Pizzie  
 ex. [@DomPizzie](https://twitter.com/dompizzie)
